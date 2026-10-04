@@ -43,6 +43,7 @@ just build 01-background-color
 | 01  | [`background-color`](src/01-background-color/main.asm) | PRG load headers, the BASIC `SYS` stub, and writing to a VIC-II register                                                                                       |
 | 02  | [`hello-world`](src/02-hello-world/main.asm)           | Writing text to screen memory, two ways: one `LDA`/`STA` per letter, and a zero-terminated string table read in a loop. Plus coloring characters via color RAM |
 | 03  | [`repeat-directive`](src/03-repeat-directive/main.asm) | A runtime loop vs. the `.repeat` assembler directive: same result (filling screen rows/columns), one computed at runtime, the other unrolled at assembly time  |
+| 04  | [`self-mod`](src/04-self-mod/main.asm)                 | Reading a label's address with `<`/`>`, and patching an instruction's operand in memory before it runs                                                         |
 
 
 ## 🧠 How a program boots
