@@ -44,6 +44,7 @@ just build 01-background-color
 | 02  | [`hello-world`](src/02-hello-world/main.asm)           | Writing text to screen memory, two ways: one `LDA`/`STA` per letter, and a zero-terminated string table read in a loop. Plus coloring characters via color RAM |
 | 03  | [`repeat-directive`](src/03-repeat-directive/main.asm) | A runtime loop vs. the `.repeat` assembler directive: same result (filling screen rows/columns), one computed at runtime, the other unrolled at assembly time  |
 | 04  | [`self-mod`](src/04-self-mod/main.asm)                 | Reading a label's address with `<`/`>`, and patching an instruction's operand in memory before it runs                                                         |
+| 05  | [`sprites`](src/05-sprites/main.asm)                   | Enabling a VIC-II sprite, copying its shape data, and animating it along a precomputed circular path                                                           |
 
 
 ## 🧠 How a program boots
