@@ -38,9 +38,10 @@ just build 01-background-color
 
 ## 📚 Programs
 
-| #   | Name                                                   | What it teaches                                                          |
-| --- | ------------------------------------------------------ | ------------------------------------------------------------------------ |
-| 01  | [`background-color`](src/01-background-color/main.asm) | PRG load headers, the BASIC `SYS` stub, and writing to a VIC-II register |
+| #   | Name                                                   | What it teaches                                                                                                                                                |
+| --- | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01  | [`background-color`](src/01-background-color/main.asm) | PRG load headers, the BASIC `SYS` stub, and writing to a VIC-II register                                                                                       |
+| 02  | [`hello-world`](src/02-hello-world/main.asm)           | Writing text to screen memory, two ways: one `LDA`/`STA` per letter, and a zero-terminated string table read in a loop. Plus coloring characters via color RAM |
 
 
 ## 🧠 How a program boots
